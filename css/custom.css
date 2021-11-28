@@ -1,0 +1,163 @@
+:root{
+    --primary-soft: rgb(231, 206, 206);
+}
+.sidebar{
+    cursor: pointer;
+    transition: 0.5s ease;
+    overflow: scroll;
+    background-color: var(--bs-light);
+}
+.sidebar .nav-brand{
+    background-color: var(--bs-light);
+    position: sticky!important;
+    top: 10px;
+}
+.nav-menu{
+    transition: 0.5s ease;
+}
+.nav-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.list-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #949494;
+    border-radius: 0.25rem;
+}
+.list-item{
+    
+}
+.list-item-link{
+    text-decoration: none!important;
+    padding: 10px 8px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+    border-radius: 0.25rem;
+}
+.list-item-link.active{
+    background-color: var(--bs-primary);
+    color: white;
+    border-radius: 0.25rem;
+}
+
+.list-item-link:hover{
+    background-color: var(--bs-secondary);
+    color: white;
+    text-decoration: none!important;
+}
+
+.list-spacer{
+    padding: 10px 0;
+}
+
+.content{
+    overflow: scroll!important;
+    box-shadow: 0 0 10px #00000020 inset;
+}
+.content .header-bar{
+    position: sticky;
+    top:0%;
+    z-index: 3000;
+}
+/* card */
+.item-card{
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.item-card:hover{
+    transform: scaleX(1.05);
+    box-shadow: 0 0 8px #181717;
+}
+.item-card:active{
+    transform: scaleY(1.05);
+    box-shadow: 0 0 8px #28e6e6;
+}
+.item-card> *{
+    cursor: pointer;
+}
+.viewer-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+.carousel-card{
+
+}
+.carousel-card-body{
+    margin-top: -15%;
+    position: relative;
+}
+.item-img{
+    height: 140px;
+    margin-bottom: 30px;    
+}
+.carousel-indicators{
+    bottom: -38px;
+}
+
+/* pie chart */
+
+
+/* subscribtion table */
+
+.sub-list tr{
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.sub-list tr:active{
+    transform: scale(1.02);
+}
+
+/* item list */
+.item-list-card{
+    
+}
+.full-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 3002;
+    overflow: scroll;
+}
+
+/* add item breadcrumb */
+.breadcrumb-item.active{
+    color: var(--bs-primary);
+    cursor: pointer;
+}
+.item-add-btn:hover{
+    background-color: var(--bs-secondary);
+}
+@media screen and (max-width: 992px){
+    .sidebar{
+        width: 40%;
+        position: absolute;
+        z-index: 3002;
+        margin-left: -100%;
+    }
+    .hide-btn{
+        display: block!important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .sidebar{
+        width: 60%;
+    }
+    .logo h4{
+        font-size: 20px;
+    }
+    .carousel-card{
+        margin-top: 50px;
+    }
+    
+}

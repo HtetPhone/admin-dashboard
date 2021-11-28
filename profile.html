@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/app.css">     
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="feather/feather.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="data tables/datatables.min.css">
+</head>
+
+<body>
+    <section class="main container-fluid">
+        <div class="row">
+            <!-- sidebar -->
+            <div class="col-12 col-lg-3 col-xl-2 vh-100 sidebar py-2">
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="nav-brand p-2 d-flex justify-content-between align-items-center my-3">
+                            <div cl ="logo mr-md-2">
+                                <h4 class="mb-0">MY HOME <span><i class="feather feather-home"></i></span></h4>
+                            </div>
+                            <button class="btn-sm btn-light d-none hide-btn">
+                                <i class="feather feather-x h5"></i>
+                            </button>
+                        </div>
+                        <div class="nav-menu">
+                            <ul>
+                                <li class="list-item">
+                                    <a href="dashboard.html" class="list-item-link">
+                                     <span> <i class="feather feather-home"></i> Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+
+                                <li class="list-title">
+                                    <span>Functions</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-activity"></i> Activities</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-archive"></i> Archieve</span>
+                                        <div class="badge badge-pill badge-primary">3</div>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+                                
+                                <li class="list-title">
+                                    <span>Manage Items</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-check-square"></i> Checking</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-cloud-lightning"></i>  Weather News</span>
+                                        <div class="badge badge-pill badge-primary">10</div>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+
+                                <li class="list-title">
+                                    <span>General</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-cpu"></i> CPU</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-database"></i> Database</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-edit"></i> Edit</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-filter"></i> Filter</span>
+                                    </a>
+                                </li>
+
+                                <li class="list-spacer"></li>
+                                <li class="list-title">
+                                    <span>Expendites</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-github "></i> Github</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-image"></i> Gallery</span>
+                                        <div class="badge badge-pill badge-primary">100</div>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+
+                                <li class="list-title">
+                                    <span>Adds & Lists</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="item_add.html" class="list-item-link">
+                                    <span> <i class="feather feather-plus-circle"></i> Add Item</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="item_list.html" class="list-item-link">
+                                        <span> <i class="feather feather-list"></i> Item List</span>
+                                        <div class="badge badge-pill badge-primary">3</div>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="profile.html" class="list-item-link active">
+                                        <span> <i class="feather feather-user"></i> Your Profile</span>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+
+                                <li class="list-title">
+                                    <span>Customer Services</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-headphones"></i>Headphones</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-layers"></i> Layers</span>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+                                <li class="list-title bg-danger" style="padding: 10px 5px; color: white;">
+                                    <span> <i class="feather-lock"></i> Logout</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content  -->
+            <div class="col-12 col-lg-9 col-xl-10 vh-100 content py-2">
+                <!-- header-bar -->
+                <div class="row header-bar">
+                    <div class="col-12">
+                       <div class="p-2 bg-primary rounded my-3 d-flex justify-content-between align-items-center">
+                            <button class="btn-sm btn-light show-btn d-lg-none">
+                                <i class="feather feather-menu h5"></i>
+                            </button>
+                            <form action="" method="GET" class="form-inline d-none d-lg-flex">
+                                <input type="text" placeholder="Search" class="form-control  required mx-1 py-1">
+                                <button class="btn btn-light">
+                                    <i class="feather feather-search"></i>
+                                </button>
+                            </form>
+                            <div class="dropdown">
+                                <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <img src="img/user/avatar1.jpg" class="rounded-circle" style="width: 35px;" alt=""> User 
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item text-danger" href="#">Log Out <i class="feather feather-log-out"></i></a>
+                                </div>
+                              </div>
+                       </div>
+                    </div>
+                </div>
+                <!-- content  -->
+                <div class="row">
+                  <div class="col-12">
+                    <nav aria-label="breadcrumb" >
+                        <ol class="breadcrumb bg-white">
+                          <li class="breadcrumb-item"><a href="dashboard.html" class="text-decoration-none text-secondary">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                        </ol>
+                    </nav>
+                  </div>
+                  <!-- profile form  -->
+                  <div class="col-12 col-md-6">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <div class="d-flex justify-content-between ">
+                            <h4 class="mb-0 font-weight-bold">
+                                <i class="feather-user text-primary"></i> Profile
+                            </h4>
+                        </div>
+                        <hr>
+                        
+                        <form action="#" method="post">
+                          <div class="row justify-content-between align-items-center mb-2">
+                             <div class="col-4">
+                              <img src="img/profile square.jpg" alt="" class="rounded-circle img-fluid">
+                             </div>
+                             <div class="col-8">
+                               <div class="form-group">
+                                 <label for="profile">
+                                   <span class="h5">Update Photo</span> <span class="text-muted ">[ jpg, png]</span>
+                                 </label>
+                                 <input type="file" class="form-control" id="profile">
+                               </div>
+                             </div>
+                          </div>
+                          <div class="row">
+                            <div class="col 12">
+                              <div class="form-group">
+                                <label for="name">
+                                  <span class="h6 font-weight-bold ">Name</span>
+                                </label>
+                                <input type="text" class="form-control mb-2" id="name" placeholder="Your Name" required>
+
+                                <label for="email">
+                                  <span class="h6 font-weight-bold ">Login Email</span>
+                                </label>
+                                <input type="text" class="form-control mb-2" id="email" placeholder="Your Email" required>
+
+                                <label for="password">
+                                  <span class="h6 font-weight-bold ">Password</span> <span class="bg-primary text-white px-1 rounded"> <small>Unlock</small></span>
+                                </label>
+                                <div class="form-group d-flex mb-2">
+                                  <input type="password" class="form-control" placeholder="Your Password" required>
+                                  <button class="btn btn-light" style="border: 0.1px solid rgb(206, 206, 206);">
+                                    <i class="feather-eye"></i>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </form>
+                      <hr>
+                      <button class="btn btn-primary">
+                          <i class="feather-user text-white h5"></i> UPDATE PROFILE
+                      </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+   <script src="js/jquery.js"></script>
+    <script src="bootstrap-4/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

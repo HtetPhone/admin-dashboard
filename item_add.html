@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Add</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="feather/feather.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <section class="main container-fluid">
+        <div class="row">
+            <!-- sidebar -->
+            <div class="col-12 col-lg-3 col-xl-2 vh-100 sidebar py-2">
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="nav-brand p-2 d-flex justify-content-between align-items-center my-3">
+                            <div class="logo mr-md-2">
+                                <h4 class="mb-0">MY HOME <span><i class="feather feather-home"></i></span></h4>
+                            </div>
+                            <button class="btn-sm btn-light d-none hide-btn">
+                                <i class="feather feather-x h5"></i>
+                            </button>
+                        </div>
+                        <div class="nav-menu">
+                            <ul>
+                                <li class="list-item">
+                                    <a href="dashboard.html" class="list-item-link">
+                                     <span> <i class="feather feather-home"></i> Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+
+                                <li class="list-title">
+                                    <span>Functions</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-activity"></i> Activities</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-archive"></i> Archieve</span>
+                                        <div class="badge rounded-pill bg-primary">3</div>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+                                
+                                <li class="list-title">
+                                    <span>Manage Items</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-check-square"></i> Checking</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-cloud-lightning"></i>  Weather News</span>
+                                        <div class="badge rounded-pill bg-primary">10</div>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+
+                                <li class="list-title">
+                                    <span>General</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-cpu"></i> CPU</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-database"></i> Database</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-edit"></i> Edit</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-filter"></i> Filter</span>
+                                    </a>
+                                </li>
+
+                                <li class="list-spacer"></li>
+                                <li class="list-title">
+                                    <span>Expendites</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-github "></i> Github</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-image"></i> Gallery</span>
+                                        <div class="badge rounded-pill bg-primary">100</div>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+
+
+                                <li class="list-title">
+                                    <span>Adds & List</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="item_add.html" class="list-item-link active">
+                                    <span> <i class="feather feather-plus-circle"></i> Add Item</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="item_list.html" class="list-item-link">
+                                        <span> <i class="feather feather-list"></i> Item List</span>
+                                        <div class="badge badge-pill badge-light">3</div>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="profile.html" class="list-item-link">
+                                        <span> <i class="feather feather-user"></i> Your Profile</span>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+
+                                <li class="list-title">
+                                    <span>Customer Services</span>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                    <span> <i class="feather feather-headphones"></i>Headphones</span>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="list-item-link">
+                                        <span> <i class="feather feather-layers"></i> Layers</span>
+                                    </a>
+                                </li>
+                                <li class="list-spacer"></li>
+                                <li class="list-title bg-danger" style="padding: 10px 5px; color: white;">
+                                    <span> <i class="feather-lock"></i> Logout</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content  -->
+            <div class="col-12 col-lg-9 col-xl-10 vh-100 content py-2">
+                <!-- header-bar -->
+                <div class="row header-bar">
+                    <div class="col-12">
+                       <div class="p-2 bg-primary rounded my-3 d-flex justify-content-between align-items-center">
+                            <button class="btn-sm btn-light show-btn d-lg-none">
+                                <i class="feather feather-menu h5"></i>
+                            </button>
+                            <form action="" method="GET" class="form-inline d-none d-lg-flex">
+                                <input type="text" placeholder="Search" class="form-control bg-light required mx-1 py-1">
+                                <button class="btn btn-light">
+                                    <i class="feather feather-search"></i>
+                                </button>
+                            </form>
+                            <div class="dropdown">
+                                <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <img src="img/user/avatar1.jpg" class="rounded-circle" style="width: 35px;" alt=""> User 
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item text-danger" href="#">Log Out <i class="feather feather-log-out"></i></a>
+                                </div>
+                              </div>
+                       </div>
+                    </div>
+                </div>
+                <!-- add item -->
+                <div class="row">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb" >
+                            <ol class="breadcrumb bg-white">
+                              <li class="breadcrumb-item"><a href="dashboard.html" class="text-decoration-none text-secondary">Home</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Add</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <div class="card shadow overflow-hidden">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between ">
+                                    <h4 class="mb-0 font-weight-bold">
+                                        <i class="feather-plus-circle text-primary"></i> ADD ITEM
+                                    </h4>
+                                    <a href="item_list.html" class="">
+                                        <i class="feather-list btn btn-outline-primary"></i>
+                                    </a>
+                                </div>
+                                <hr>
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group my-sm-3">
+                                                <label for="photo" class="">Item Photo</label>
+                                                <i class="feather feather-info h6 text-dark"  tabindex="0" data-container="body" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="Accept only JPG and PNG"></i>
+                                                <input type="file" id="photo" name="photo" class="form-control" required>
+                                            </div>
+                                            <div class="p-2 p-md-0"></div>
+                                            <div class="form-group my-sm-3">
+                                                <label for="name" class="">Item Name</label>
+                                                <input type="text" id="name" name="name" class="form-control" required>
+                                            </div>
+                                            <div class="p-2 p-md-0"></div>
+                                            <div class="form-group my-sm-3">
+                                                <label for="t" class="">Type</label>
+                                                <select name="t" id="t" class="form-control custom-select">
+                                                    <option value="0" selected disabled>Select Type</option>
+                                                    <option value="1">ကုန်စို</option>
+                                                    <option value="2">ကုန်ခြောက်</option>
+                                                </select>
+                                            </div>
+                                            <div class="p-2 p-md-0"></div>
+                                            <div class="form-group my-sm-3">
+                                                <label for="mc" class="">Main Category</label>
+                                                <select name="mc" id="mc" class="form-control custom-select">
+                                                    <option value="" selected>Select Main Category</option>
+                                                </select>
+                                            </div>
+                                            <div class="p-2 p-md-0"></div>
+                                            <div class="form-group my-sm-3">
+                                                <label for="sc" class="">Sub Category</label>
+                                                <select name="sc" id="sc" class="form-control custom-select">
+                                                    <option value="" selected>Select Sub Category</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="p-2 p-md-0"></div>
+                                                    <div class="form-group my-sm-3">
+                                                        <label for="q" class="">Item Quantity</label>
+                                                        <input type="number" id="q" name="q" class="form-control" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="p-2 p-md-0"></div>
+                                                    <div class="form-group my-sm-3">
+                                                        <label for="unit" class="">Unit</label>
+                                                        <select name="unit" id="unit" class="form-control custom-select">
+                                                            <option value="0">ကုန်စို</option>
+                                                            <option value="1">ကုန်ခြောက်</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="p-2 p-md-0"></div>
+                                            <div class="form-group my-sm-3">
+                                                <label for="price" class="">Price</label>
+                                                <input type="text" id="price" name="price" class="form-control" required>
+                                            </div>
+                                            <div class="p-2 p-md-0"></div>
+                                            <div class="form-group my-sm-3">
+                                                <label for="des" class="">Description</label>
+                                                <textarea type="text" id="des" name="des" class="form-control" rows="8" required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <hr>
+                                <button class="btn btn-primary item-add-btn">
+                                    <i class="feather feather-plus-circle text-white"></i> Add Item
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap-4/js/bootstrap.bundle.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        let mainCategory = ['Phone', 'Computer', 'TV'];
+        mainCategory.map( function(el, index){
+            $('#mc').append(`<option value="${index}">${el}</option>`);
+        });
+
+        let subCategory = [
+            {name: 'Iphone13', category_id : '0'},
+            {name: 'Mi', category_id : '0'},
+            {name: 'Asus', category_id : '1'},
+            {name: 'Acer', category_id : '1'},
+            {name: 'Panasonic', category_id : '2'},
+        ];
+        subCategory.map(function(el, index){
+            $('#sc').append(`<option value="${index}" data-category='${el.category_id}'>${el.name}</option>`)
+        });
+
+        $('#mc').change( function(){
+           let current = $(this).val();
+           console.log(current);
+           $('#sc option').hide();
+           $(`[data-category= ${current}]`).show();  
+        });
+    </script>
+</body>
+
+</html>
