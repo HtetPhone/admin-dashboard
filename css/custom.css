@@ -27,9 +27,7 @@
     color: #949494;
     border-radius: 0.25rem;
 }
-.list-item{
-    
-}
+/* .list-item{} */
 .list-item-link{
     text-decoration: none!important;
     padding: 10px 8px;
@@ -41,9 +39,9 @@
     border-radius: 0.25rem;
 }
 .list-item-link.active{
-    background-color: var(--bs-primary);
-    color: white;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     border-radius: 0.25rem;
+    color: #fff;
     
 }
 .list-item-link.active .badge{
@@ -51,7 +49,7 @@
 }
 
 .list-item-link:hover{
-    background-color: var(--bs-secondary);
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     color: white;
     text-decoration: none!important;
 }
@@ -68,6 +66,10 @@
     position: sticky;
     top:0%;
     z-index: 3000;
+
+}
+.head-bar {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 /* card */
 .item-card{
@@ -91,9 +93,9 @@
     border-radius: 50%;
     margin-left: -20px;
 }
-.carousel-card{
+/* .carousel-card{
 
-}
+} */
 .carousel-card-body{
     margin-top: -15%;
     position: relative;
@@ -110,6 +112,9 @@
 
 
 /* subscribtion table */
+.mm-btn:hover, .add-btn:hover {
+    color: white;
+}
 
 .sub-list tr{
     transition: 0.3s all ease;
@@ -120,9 +125,9 @@
 }
 
 /* item list */
-.item-list-card{
+/* .item-list-card{
     
-}
+} */
 .full-screen{
     position: fixed;
     top: 0;
@@ -138,9 +143,19 @@
     color: var(--bs-primary);
     cursor: pointer;
 }
-.item-add-btn:hover{
-    background-color: var(--bs-secondary);
+.item-add-btn{
+    transform: 0.3s ease;
 }
+.item-add-btn:hover, .my-btn:hover{
+    color:white;
+    border:0.8px solid #000;
+}
+.my-btn {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+
 @media screen and (max-width: 992px){
     .sidebar{
         width: 40%;

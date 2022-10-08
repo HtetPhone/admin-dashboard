@@ -15,14 +15,6 @@ function go(url){
     }, 900);
 }
 
-// bootstrap popover
-$(function () {
-    $('[data-toggle="popover"]').popover();
-  })
-  
-$('.popover-dismiss').popover({
-    trigger: 'focus'
-  })
 
 // item list full screen 
 $('.mm-btn').click( function(){

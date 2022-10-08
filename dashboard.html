@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.min.css"> 
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="feather/feather.css">
     <link rel="shortcut icon" href="#">
@@ -22,7 +22,7 @@
                     <div class="col-12">
                         <div class="nav-brand p-2 d-flex justify-content-between align-items-center my-3">
                             <div class="logo mr-md-2">
-                                <h4 class="mb-0">MY HOME <span><i class="feather feather-home"></i></span></h4>
+                                <h4 class="mb-0">Dastonia <span><i class="feather feather-home"></i></span></h4>
                             </div>
                             <button class="btn-sm btn-light d-none hide-btn">
                                 <i class="feather feather-x h5"></i>
@@ -159,7 +159,7 @@
                 <!-- header-bar -->
                 <div class="row header-bar">
                     <div class="col-12">
-                       <div class="p-2 bg-primary rounded my-3 d-flex justify-content-between align-items-center">
+                       <div class="p-2 head-bar rounded my-3 d-flex justify-content-between align-items-center">
                             <button class="btn-sm btn-light show-btn d-lg-none">
                                 <i class="feather feather-menu h5"></i>
                             </button>
@@ -170,19 +170,20 @@
                                 </button>
                             </form>
                             <div class="dropdown">
-                                <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  <img src="img/user/avatar1.jpg" class="rounded-circle" style="width: 35px;" alt=""> User 
+                                <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/user/avatar1.jpg" class="rounded-circle" style="width: 35px;" alt=""> User
                                 </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item text-danger" href="#">Log Out <i class="feather feather-log-out"></i></a>
-                                </div>
-                              </div>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-danger" href="#">Log Out <i class="feather feather-log-out"></i></a>
+                                    </div>
+                                </ul>
+                            </div>
                        </div>
                     </div>
-                </div>
+              
 
                 <!-- cards -->
                 <div class="row">
@@ -408,15 +409,14 @@
     </section>
 
     <script src="js/jquery.js"></script>
-    <script src="bootstrap-4/js/popper.js"></script>
-    <script src="bootstrap-4/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="way-point/lib/jquery.waypoints.min.js"> </script>
     <script src="counter-up/jquery.counterup.min.js"></script>
     <script src="chart-js/package/dist/chart.min.js"></script>
     <script src="js/dashboard.js"></script>
-    <script src="js/app.js"></script>
     <script src="data tables/datatables.min.js"></script>
+    <script src="js/app.js"></script>
+    
 
 </body>
 
