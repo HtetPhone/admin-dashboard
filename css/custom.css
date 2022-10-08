@@ -44,6 +44,10 @@
     background-color: var(--bs-primary);
     color: white;
     border-radius: 0.25rem;
+    
+}
+.list-item-link.active .badge{
+    color: black
 }
 
 .list-item-link:hover{
